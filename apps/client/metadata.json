@@ -1,0 +1,5 @@
+{
+  "name": "RIFASFULLPROJECT - Plataforma de Rifas Digitales",
+  "description": "Una aplicación web completa para la gestión y participación en rifas digitales, que incluye una interfaz de usuario atractiva para compradores y un panel de administración avanzado con análisis de IA, conciliación de pagos y gestión de seguridad.",
+  "requestFramePermissions": []
+}

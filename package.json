@@ -1,0 +1,14 @@
+{
+  "name": "rifas-fullproject-monorepo",
+  "private": true,
+  "description": "Monorepo para plataforma de rifas digitales",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:client": "npm run dev -w apps/client",
+    "dev:admin": "npm run dev -w apps/admin",
+    "install:all": "npm install"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "@rifasfull/core",
+    "version": "1.0.0",
+    "description": "Core package for Rifas Fullproject - Supabase integration and shared logic",
+    "type": "module",
+    "main": "./src/index.ts",
+    "types": "./src/index.ts",
+    "scripts": {
+        "type-check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "^2.50.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    }
+}
