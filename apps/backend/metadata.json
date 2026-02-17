@@ -1,0 +1,5 @@
+{
+  "name": "Backend Clean Architecture",
+  "description": "Backend Node.js/Express con Clean Architecture, Sequelize, Integraciones (OpenAI, PagoMóvil) y Seguridad.",
+  "requestFramePermissions": []
+}
