@@ -1,15 +1,14 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { getSupabaseClient } from '@rifasfull/core';
+import { getSupabaseClient } from '@rifasfull/core/supabase/client';
 
 // 🔐 Inicializar Supabase al inicio de la aplicación
 try {
   const supabase = getSupabaseClient();
-  console.log('✅ [CLIENT] Supabase client inicializado correctamente');
+  console.log('✅ [ADMIN] Supabase client inicializado correctamente');
 } catch (error) {
-  console.error('❌ [CLIENT] Error al inicializar Supabase:', error);
+  console.error('❌ [ADMIN] Error al inicializar Supabase:', error);
 }
 
 const rootElement = document.getElementById('root');

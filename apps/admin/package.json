@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react-dom": "^19.2.3",
-    "react-router-dom": "^7.11.0",
-    "react": "^19.2.3",
-    "chart.js": "4.4.1",
-    "react-chartjs-2": "5.2.0",
+    "@rifasfull/core": "*",
     "@rifasfull/shared-types": "*",
-    "@rifasfull/core": "*"
+    "chart.js": "4.4.1",
+    "react": "^19.2.3",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

@@ -1,20 +1,9 @@
-/**
- * 📦 @rifasfull/core
- * 
- * Paquete centralizado para lógica compartida y conexión a Supabase.
- * 
- * @example
- * ```typescript
- * import { getSupabaseClient } from '@rifasfull/core';
- * 
- * const supabase = getSupabaseClient();
- * const { data, error } = await supabase.from('rifas').select('*');
- * ```
- */
+// Export del cliente Supabase
+export { getSupabaseClient } from './supabase/client';
 
-// 🔐 Supabase Client
-export { getSupabaseClient, resetSupabaseClient } from './supabase/client.js';
+// Export de servicios - CORREGIDO
+export * as raffleService from './services/raffle.service';
+export * as ticketService from './services/ticket.service';
 
-// 📝 Puedes agregar más exports aquí:
-// export { ... } from './services/...';
-// export { ... } from './utils/...';
+// Reexportar tipos para conveniencia
+export type { Raffle } from '@rifasfull/shared-types';

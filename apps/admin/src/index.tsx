@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { getSupabaseClient } from '@rifasfull/core/supabase/client';
+import { getSupabaseClient } from '@rifasfull/core';
 
 // 🔐 Inicializar Supabase al inicio de la aplicación
 try {
