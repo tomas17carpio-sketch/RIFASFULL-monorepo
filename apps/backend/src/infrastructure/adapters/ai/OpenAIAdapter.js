@@ -1,4 +1,4 @@
-const config = require('../../../config/config');
+const config = require('../../../config');
 const axios = require('axios'); // Assuming axios usage for manual call or use 'openai' lib
 
 class OpenAIAdapter {

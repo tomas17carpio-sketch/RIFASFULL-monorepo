@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const config = require('../../../config/config');
+const config = require('../../../config');
 const CustomError = require('../../../shared/errors/CustomError');
 
 exports.protect = (req, res, next) => {

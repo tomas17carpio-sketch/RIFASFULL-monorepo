@@ -1,5 +1,5 @@
 const app = require('./app');
-const config = require('./config/config');
+const config = require('./config');
 const logger = require('./shared/utils/logger');
 // Ensure DB connection is initialized
 require('./infrastructure/database/sequelize');
